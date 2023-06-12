@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>table{
+        border:1px solid lightgrey ;
+        border-collapse: collapse;  
+        width: 900px;  
+        text-align: center;   
+    }
+    /*#c3{
+        background-color: rgb(133, 243, 206);
+        border-top-style: inset; 
+    }
+    #c5{
+        background-color: rgb(247, 217, 178);
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+    }
+    .c1{
+        border-top: 1px solid red;
+    }
+    .c2{
+        border-bottom: 1px solid red;
+    }*/
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2">
+            <col style="background-color: aquamarine;">
+            <col>
+            <col style="background-color: rgb(250, 205, 150);border:1px solid red;">
+        </colgroup>
+        <tr>
+            <td></td>
+            <th>Mon</th>
+            <th id="c3">Tue</th>
+            <th>WEd</th>
+            <th>Thur</th>
+            <th id="c5" class="c1">Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+        <tr>
+            <th>1st period</th>
+            <td>English</td>
+            <td id="c3"></td>
+            <td></td>
+            <td>German</td>
+            <td id="c5">Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>2nd period</th>
+            <td>English</td>
+            <td id="c3">English</td>
+            <td></td>
+            <td>German</td>
+            <td id="c5">Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>3rd period</th>
+            <td></td>
+            <td id="c3">English</td>
+            <td></td>
+            <td>German</td>
+            <td id="c5">Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>4th period</th>
+            <td></td>
+            <td id="c3">English</td>
+            <td></td>
+            <td>English</td>
+            <td id="c5" class="c2">Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

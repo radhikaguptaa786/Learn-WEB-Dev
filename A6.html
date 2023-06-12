@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="6A.css">
+    <title>A6</title>
+    <script>function mOver(obj){
+            obj.style.boxShadow="4px 4px 4px 4px grey";
+        }
+      function  mOUT(obj){
+        obj.style.boxShadow="none";
+      }
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="left card" onmouseover="mOver(this)" onmouseout="mOUT(this)">
+            <div class="header">Basic</div>
+            <section>
+                <div class="content">
+                    <ul>
+                        <li>10GB Storage</li>
+                        <li>10 Emails</li>
+                        <li>10 Domains</li>
+                    </ul>
+                    <p class="price">$ 10</p>
+                    <p class="period">Per Month</p>
+                </div>
+            </section>
+            <div class="footer"><button>Sign Up</button></div>
+        </div>
+        <div class="middle card" onmouseover="mOver(this)" onmouseout="mOUT(this)">
+            <div class="header">Pro</div>
+            <section>
+                <div class="content">
+                    <ul>
+                        <li>10GB Storage</li>
+                        <li>10 Emails</li>
+                        <li>10 Domains</li>
+                    </ul>
+                    <p class="price">$ 10</p>
+                    <p class="period">Per Month</p>
+                </div>
+            </section>
+            <div class="footer"><button>Sign Up</button></div>
+        </div>
+        <div class="right card" onmouseover="mOver(this)" onmouseout="mOUT(this)">
+            <div class="header">Premium</div>
+            <section>
+                <div class="content">
+                    <ul>
+                        <li>10GB Storage</li>
+                        <li>10 Emails</li>
+                        <li>10 Domains</li>
+                    </ul>
+                    <p class="price">$ 10</p>
+                    <p class="period">Per Month</p>
+                </div>
+            </section>
+            <div class="footer">
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
