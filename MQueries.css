@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(227, 90, 90);
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+}
+li{
+    flex-basis: 15%;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+    border: 5px solid rgb(86, 86, 221);
+    background-color: rgb(105, 105, 148);
+}
+@media  only screen and (min-width:400px) {
+    body{
+        background-color: rgb(144, 219, 172);
+    }
+     li{
+        flex-basis:25%;
+    }
+    ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+@media  only screen and (min-width:600px) {
+    body{
+        background-color: rgb(84, 98, 245);
+    }
+     li{
+        flex-basis:25%;
+    }
+    ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
