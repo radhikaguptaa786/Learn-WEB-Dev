@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Project-Zerodha-website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Learn-WEB-Dev"
+	}
+}

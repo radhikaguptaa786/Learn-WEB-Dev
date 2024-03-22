@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- css only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img  width="50px" src="data:image/png;base64,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"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img height="400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfisXkDGDKfk296vgPlwv7rcAGBVZGl-Xoig&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img  height="400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv5s8oVRjPRWBdssaDHyaGDeO8uU6UOZjTvQclnGxXsPem2DBDgtcoltvX9jyIR8dYVho&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img height="400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYMf4UMGioh6qeWr_DbrV3ASz2kUdJNo5D8sGCmXA7tZ0eBNiMB6d2cST2O4SEyflzxE&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <!-- spinners -->
+      <!-- accordion  -->
+      <!-- pagination -->
+    <!-- js bundle with proper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnQRUWSARRyf1K7gfcOk87AgDUnPIo0OIQX6-5UMcXWNrKw3eWBnbUxeJXhd0FYco3dw&usqp=CAU');
+    background-repeat: repeat;
+    background-size: contain;
+}
+.sign-up{
+   margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    background-color: rgb(26, 60, 118);
+    box-shadow: 1px 2px 2px 4px #b8beca;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+form{
+    background-color: rgba(252, 252, 252, 0.882);
+    box-shadow: 1px 2px 2px 4px #b8beca;
+    padding: 10px;
+    display: flex; 
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 40px;
+    margin-bottom: 10px;
+}
+input:hover{
+    border: 2px solid rgba(6, 33, 151, 0.792);
+}
+.signin{
+    display: none;
+}
+.signin.active{
+    display: block;
+}
+.login{
+    /* display: none; */
+}
+.login.active{
+    display: block;
+}
+button{
+    background-color: rgb(4, 4, 111);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    margin: 10px 100px;
+}
+
+@media only screen and (min-width:600px)
+{
+    form{
+        width: 600px;
+    }
+    input{
+        margin:10px;
+        width: 300px;
+    }
+    button{
+        width: 200px;
+    }
+}

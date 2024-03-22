@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage{
+    background-color: #be84a186;
+}
+nav{
+    background-color: rgb(17, 3, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 999;
+}
+.sign-up{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.sign-up ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-menu{
+    display: none;
+}
+.nav-menu.active{
+    display: block;
+}
+.banner{
+    color: rgb(239, 243, 246);
+    padding: 20px;
+}
+.toggler{
+    position: absolute;
+    right: 10px;
+    background-color: rgb(44, 44, 100);
+    color: azure;
+    margin-top: 5px;
+    padding:10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    margin-right: 3px;
+   color:#f5f1f3de;
+   /* */
+   text-decoration: none;
+   font-size: 1.25rem;
+}
+nav a:hover{
+    background-color: rgba(236, 239, 241, 0.738);
+    color: #0d014ef7;
+}
+.main-frame{
+    background-image: url('https://t3.ftcdn.net/jpg/02/79/76/18/360_F_279761892_9NhPOi5IjeXgau9kPhbqltqw5hKL5qw4.jpg');
+    background-size: cover;
+    /* height: 200px; */
+}
+.about{
+    background-color: rgba(255, 228, 196, 0.336);
+   width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: rgb(5, 5, 5);
+}
+@media only screen and (min-width:600px)
+{
+   nav{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .nav-menu{
+    display: flex;
+   }
+   nav ul{
+    flex-direction: row;
+    align-items: center;
+   }
+   nav ul li a{
+    background-color: rgba(81, 96, 179, 0.333);
+   }
+   .sign-up a{
+      background-color:unset;
+   }
+   .toggler{
+    display: none;
+   }
+   .about{
+    height: 200px;
+   }
+}

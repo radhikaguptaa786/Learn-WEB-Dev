@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    display: flex;
+}
+/* .box{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    animation: up-down 2s infinite ;
+    animation: skew-animation 2s ease-in-out infinite alternate;
+} */
+.box{
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50px;
+    animation: up-down2 1s 5 ;
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes up-down{
+   0%{
+     transform: translate(0); 
+     background-color: white;
+   } 
+   25%{
+        transform: translate(0,300px);
+        background-color: blue;
+   }
+   50%{
+    transform: translate(300px,300px);
+    background-color: aqua;
+   }
+   75%{
+    transform: translate(300px,0);
+    background-color: brown;
+   }
+   100%{
+     transform: translate(0,0) ;
+     background-color: yellow;
+   }
+} */
+
+/* skew-animation */
+@keyframes skew-animation{
+    0%{
+        transform: skew(-20deg,-20deg);
+    }
+    100%{
+        transform: skew(20deg,20deg);
+    }
+}
+
+/* another up down animation */
+@keyframes up-down2{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform:translateY(-40px) ;
+    }
+}

@@ -1,0 +1,69 @@
+form{
+    width: 100%;
+}
+.query-input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.btn-submit{
+    width: 10%;
+    margin-bottom: 10px;
+    padding: 10px ;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+.news-app{
+    width: 80%;
+    margin-inline: auto;
+    
+    font-family: monospace;
+   
+}
+.news-app .heading{
+    background-color: rgba(13, 13, 237, 0.929);
+}
+.news-app h1{
+    font-family:cursive;
+    font-style: italic;
+    margin-block: 10px;
+    /* animation: right-left infinite 1.5s; */
+    animation-fill-mode: forwards;
+    color: rgba(255, 0, 4, 0.742);
+}
+/* @keyframes skew-animation{
+    0%{
+        transform: skew(-20deg,-20deg);
+    }
+    100%{
+        transform: skew(20deg,20deg);
+    }
+} */
+@keyframes right-left{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform:translateX(40px) ;
+    }
+}
+.main{
+    display: flex;
+    margin-top:40px ;
+}
+.countries-filter{
+    padding: 10px 0;
+    width: 10%;
+    border: 2px solid rgb(4, 29, 54);
+    background-color: rgba(50, 61, 165, 0.062);
+}
+.countries-filter button{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid aliceblue;
+}
